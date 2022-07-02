@@ -1,0 +1,229 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Business Name Here!</title>
+  <meta name="description" content="Business description here!">
+  <meta name="author" content="SitePoint">
+
+  
+<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<!-- google web font css -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<!-- Start of page-->
+<body>
+
+<!-- Navigation Bar -->
+<div>
+    <header tabindex="0"> <img src="images/logo.png" style="height: 100%; width: auto;" title="logo" alt="logo"> Business Name </header>
+    <div id="nav-container">
+      <div class="bg"></div>
+      <div class="button" tabindex="0">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </div>
+      <div id="nav-content" tabindex="0">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About</a></li>
+		  <li><a href="games.html">Games</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="small"><a href="#0">Facebook</a><a href="#0">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+
+<!-- heading section -->
+<h1 style="text-align: center; margin-top: 0px;">Put Your Slogan Here!</h1>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="Slidenumbertext">1 / 3</div>
+      <img src="images/SlideImg1.jpg" style="width:100%" title="Slide img 1" alt="Slide img 1">
+      <div class="Slidetext">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="Slidenumbertext">2 / 3</div>
+      <img src="images/SlideImg2.jpg" style="width:100%" title="Slide img 2" alt="Slide img 2">
+      <div class="Slidetext">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="Slidenumbertext">3 / 3</div>
+      <img src="images/SlideImg3.jpg" style="width:100%" title="Slide img 3" alt="Slide img 3">
+      <div class="Slidetext">Caption Three</div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center; margin-bottom: 55px; ">
+      <span class="Slidedot"></span> 
+      <span class="Slidedot"></span> 
+      <span class="Slidedot"></span> 
+    </div>
+
+<!-- divider section -->
+<div class="divider">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-4">
+				<a href="index.html"><div class="divider-wrapper divider-one">
+					<h2>Games!</h2>
+					<p style="color:#d1d1d1">Click to see what games are available</p>
+				</div></a>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<a href="about-us.html"><div class="divider-wrapper divider-two">
+					<h2>Who Are We?</h2>
+					<p style="color:#d1d1d1">Click to find out more about us!</p>
+				</div></a>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<a href="contact.html"><div class="divider-wrapper divider-three">
+					<h2>Contact Us Today!</h2>
+					<p style="color:#d1d1d1">Click to find out where we are today!</p>
+				</div></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- gallery section -->
+<h2 style="text-align:center; font-size:30px"> Picture Section (place your photos here)</h2> 
+
+<div class="container">
+	<div class="row">
+
+	<div class="galcolumn">		
+		<div class="gallery">
+	 	 <a target="_blank" href="images/PictureImg1.jpg">
+    		<img src="images/PictureImg1.jpg" title="Img hover over text" alt="Img Seo Tag" width="600" height="400">
+  		</a>
+  		<div class="desc"> First description of the first Image. </div>
+		</div>
+	</div>
+
+	<div class="galcolumn">
+		<div class="gallery">
+ 		 <a target="_blank" href="images/PictureImg2.jpg">
+    		<img src="images/PictureImg2.jpg" title="Img hover over text" alt="Img Seo Tag" width="600" height="400">
+  		</a>
+  		<div class="desc"> Second description of the second Image. </div>
+		</div>
+	</div>
+
+	</div>
+</div>
+<br>
+<br>
+
+<!-- New React Section -->
+<div id="react_example"></div>
+
+
+<!-- End section -->
+
+<!-- video section  -->
+<div class="container">
+	<div class="video">
+	<div style="text-align:center"> 
+		<h2 style="font-size: 30px"> Put a welcome video here! </h2>
+  	<video id="video1" width="700">
+    	<source src="videos/WelcomeVideo.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  	</video>
+  <br>
+  		<button class="btn" onclick="playPause()">Play/Pause</button> 
+ 		<button class="btn" onclick="makeBig()">Big</button>
+  		<button class="btn" onclick="makeSmall()">Small</button>
+  		<button class="btn" onclick="makeNormal()">Normal</button>
+  		<br><br>
+	</div>
+	</div>
+</div>
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<!-- First secontion with company details -->
+			<div class="col-md-5 col-sm-4">
+				<img src="images/logo.png" style="width:40%; height:auto;" title="logo" alt="logo">
+				<p>Design is from Shaun Johnson. Feel free to contact me about anything related to the website.</p>
+				<p><i class="fa fa-phone"></i> 0114 123 4567</p>
+				<p><i class="fa fa-envelope-o"></i> RandomEmail@gmail.com</p>
+              <p><i class="fa fa-globe"></i> www.MyWebsite.com</p>
+			</div>
+			<!-- Another menu for website navigation -->
+			<div class="col-md-3 col-sm-4">
+				<h3>Useful Links</h3>
+				<p><a href="index.html">Home</a></p>
+				<p><a href="about-us.html">About</a></p>
+				<p><a href="games.html">Games</a></p>
+				<p><a href="contact.html">Contact</a></p>
+			</div>
+            <!-- Email Signup -->
+			<div class="col-md-4 col-sm-4 newsletter">
+				<h3>Newsletter (Email Sign Up)</h3>
+				<p>Get customers emails for marketing</p>
+				<div class="input-group">
+           	    	<form action="#" method="post">
+                        <input name="fname" type="text" placeholder="First Name" class="form-control" required>
+           	    		<input name="lname" type="text" placeholder="Last Name" class="form-control" required>
+                        <input name="email" type="text" placeholder="Email Address" class="form-control" required>
+                    	<button type="submit" name="submit" class="btn email">Submit</button>
+                  	</form>
+				 </div>
+			</div>
+            
+		</div>
+	</div>
+</footer>
+
+<!-- copyright section -->
+<div class="copyright" style="margin-top: 10px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<p>Copyright © 2020 SJ</p>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<ul class="social-icons">
+					<li><a href="#" class="fab fa-facebook-square"></a></li>
+					<li><a href="#" class="fab fa-twitter-square"></a></li>
+					<li><a href="#" class="fab fa-pinterest-square"></a></li>
+					<li><a href="#" class="fa fa-envelope-o"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+  
+
+  <script src="https://kit.fontawesome.com/5f5cc94eb5.js" crossorigin="anonymous"></script>
+  <script src="js/video.js"></script>
+  <script src="js/Slideshow.js"></script>
+
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="react.js"></script>
+
+</body>
+</html>
