@@ -1,4 +1,28 @@
 
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+  img[data-src-600px] {
+      content: attr(data-src-600px, url);
+  }
+}
+
+@media (min-device-width:800px) {
+  img[data-src-800px] {
+      content: attr(data-src-800px, url);
+  }
+}
+
 
 * {
   outline: none;
@@ -332,6 +356,7 @@ img {
   position: relative;
   bottom: 40px;
   transition: all 0.4s ease-in;
+  height: 200px;
 }
 
 .divider .divider-one {
@@ -380,6 +405,16 @@ img {
 
 /* Image Gallery */
 
+@media (max-width: 820px) {
+  .gallery, #gal-title {
+    display: none;
+  }
+}
+
+#gal-title {
+  color: #343d46;
+}
+
 .gallery {
   margin: 37px;
   border: 1px solid #65737e;
@@ -404,6 +439,13 @@ img {
 }
 
 /* video section */
+
+@media (max-width: 820px) {
+  .video {
+    display: none;
+  }
+}
+
 .video {
   margin: 5px 5px 50px 5px;
 }
